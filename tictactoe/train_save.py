@@ -9,7 +9,7 @@ from tic_tac_toe_env import TicTacToeEnv
 from q_learning_agent import QLearningAgent
 from evaluate import evaluate_greedy
 
-NUM_EPISODES = 100_000
+NUM_EPISODES = 70_000
 SNAPSHOT_EVERY = 500
 
 DATA_DIR = Path(__file__).parent / "data"
